@@ -1,0 +1,450 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+a,u{text-decoration: none;}
+img{border:0;display:block;}
+input{outline:none;}
+
+*{
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    font-size: 50px;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    font-size: 12px;
+
+}
+.swiper-container .swiper-wrapper .page_one{
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    justify-content:space-between;
+    padding-top: 0.22rem;
+    
+} 
+.swiper-container .swiper-wrapper.swiper-slide{
+    overflow: hidden;
+}
+.swiper-container .swiper-wrapper .swiper-slide .logo{
+    width: 2.04rem;
+
+}
+  .swiper-container .swiper-wrapper .swiper-slide .shanshui{
+        width: 100%;
+       
+    }
+    .page_one .page_one_show{
+        width: 3.58rem;
+        height: 1.39rem;
+        position: absolute;
+        left: 22%;
+        top:41%;
+
+    }
+    .page_one .page_one_show img{
+        width: 3.58rem;
+        height: 1.39rem;
+        position: absolute;
+    }
+    @keyframes one_bottom{
+    from {left:0rem;}
+    to {left:6.4rem;}
+}
+@keyframes one_bottom0{
+    from {left:-6.4rem;}
+    to {left:0rem;}
+}
+@keyframes page_six_move{
+  0%{
+    left: 0rem;
+  }
+  100%{
+    left: 1.8rem;
+  }
+}
+
+.swim_pic .bgmove{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1.82rem;
+    z-index: 2;
+    animation: one_bottom 10s linear infinite;
+}
+.swim_pic .bgmove0{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1.82rem;
+    left: -100%;
+    z-index: 2;
+    animation: one_bottom0 10s linear infinite;
+}
+.bgmove img,.bgmove0 img{
+    width: 100%;height: 100%;
+}
+
+    /*第二页*/
+    
+    .swiper-wrapper .page_two{
+        display: flex ;
+        background: #fe657a;
+        width: 100%;
+        height:100%;
+    }
+ .swiper-wrapper .page_two .oath_left_top{
+        height: 2.46rem;
+        width: 4.88rem;
+        position: relative;
+        z-index: 100;
+        top:0.2rem;
+        left: 0.2rem;
+ }
+ .swiper-wrapper .page_two .oath_left_top img{
+    width: 1.22rem;
+    height: 2.46rem;
+   position: absolute;
+
+ }
+
+    .page_two .show_boy{
+        
+    }
+    .page_two .show_boy div{
+        width: 5.48rem;
+        height: 8.94rem;
+        position: absolute;
+        left: 0.9rem;
+        top: 0.5rem;
+    }
+     .page_two .show_boy div img{
+        width: 5.48rem;
+        height: 8.94rem;
+        display: block;
+        /*animation-iteration-count:infinite;*/
+ }
+ .swiper-wrapper .page_two .oath_right_down{
+        height: 3.37rem;
+        width: 1.14rem;
+        position: relative;
+        z-index: 100;
+        top:7.8rem;
+        left:0.1rem;
+        
+ }
+ .swiper-wrapper .page_two .oath_right_down        .oath_my{
+    width: 0.69rem;
+    height: 0.68rem;
+   position: absolute;
+
+ }
+ .swiper-wrapper .page_two .oath_right_down        .oath_wang{
+    width: 0.44rem;
+    height: 2.04rem;
+   position: absolute;
+
+ }
+  .swiper-wrapper .page_two .oath_right_down        .oaath_wuhui{
+    width: 1.14rem;
+    height: 3.37rem;
+   position: absolute;
+
+
+ }
+.swiper-wrapper .page_two .page_two_jiantou img{
+    width: 0.43rem;
+    height: 0.62rem;
+    position: absolute;
+    right: 3rem;
+    top: 10.5rem;
+ }
+ /*第三页*/
+
+ .swiper-wrapper .page_three{
+        display: flex ;
+        background: #09bee3;
+        width: 100%;
+        height:100%;
+    }
+ .swiper-wrapper .page_three .oath_left_top{
+      
+          height: 3.37rem;
+        width: 1.14rem;
+       z-index: 100;
+       
+ }
+ .swiper-wrapper .page_three .oath_right_down img{
+    width: 1.22rem;
+    height: 2.46rem;
+   position: absolute;
+
+ }
+
+    .page_three .show_girl{
+        
+    }
+    .page_three .show_girl div{
+        width: 5.48rem;
+        height: 8.94rem;
+        position: absolute;
+        left: 0.1rem;
+        top: 0.5rem;
+    }
+     .page_three .show_girl div img{
+        width: 5.48rem;
+        height: 8.94rem;
+        display: block;
+        /*animation-iteration-count:infinite;*/
+ }
+ .swiper-wrapper .page_three .oath_right_down{
+        height: 2.46rem;
+        width: 4.88rem;
+       position: relative;
+       top:8.5rem;
+       left: 3.8rem;
+        z-index: 100;
+      
+        
+ }
+ .swiper-wrapper .page_three .oath_left_top        .oath_my{
+    width: 0.69rem;
+    height: 0.68rem;
+   position: absolute;
+
+ }
+ .swiper-wrapper .page_three .oath_left_top        .oath_wang{
+    width: 0.44rem;
+    height: 2.04rem;
+   position: absolute;
+
+ }
+  .swiper-wrapper .page_three .oath_left_top        .oaath_wuhui{
+    width: 1.14rem;
+    height: 3.37rem;
+   position: absolute;
+
+
+ }
+.swiper-wrapper .page_three .page_three_jiantou img{
+    width: 0.43rem;
+    height: 0.62rem;
+    position: absolute;
+    right: 3rem;
+    top: 10.5rem;
+ }
+ /*four*/
+  .swiper-wrapper .page_four{
+    background: #36a15c;
+    display: flex;
+     flex-direction:column;
+
+    /*width: 100%;*/
+    height: 100%;
+ }
+ .page_four .show_four{
+    width: 100%;
+    position: relative;
+ }
+  .page_four .show_four img{
+    width: 100%;
+    position: absolute;
+  }
+   .page_four .page_four_txt{
+    width: 100%;
+    /*background: #ccc;*/
+    position: absolute;
+    bottom: 0.6rem;
+    left: 0rem;
+    display: flex;
+    justify-content:center;
+    height: 10.5%;
+   }
+   .page_four .page_four_txt img{
+    width: 25.9%;
+    height: 50%;
+    position: absolute;
+    top:0.7rem;
+   }
+
+
+
+   /*five*/
+   .swiper-wrapper .page_five{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #669cff;
+    flex-direction:column;
+     justify-content:space-between;
+        padding-bottom: 0.2rem;
+    padding-top: 0.8rem;
+  
+
+   }
+    .swiper-wrapper .page_five .page_five_txt{
+        display: flex;
+        width: 100%;
+        justify-content:center;
+    }
+   .swiper-wrapper .page_five .page_five_txt img{
+    width: 2.59rem;
+    height: 1.6rem;
+   } 
+   .swiper-wrapper .page_five .page_five_dotted{
+        display: flex;
+        width: 100%;
+        justify-content:center;
+    }
+   .swiper-wrapper .page_five .page_five_dotted img{
+width: 0.04rem;
+height: 0.7rem;
+   }
+   .swiper-wrapper .page_five .page_five_show{
+        width: 100%;
+        position: relative;
+        height:4rem;
+       
+    }
+     .swiper-wrapper .page_five .page_five_show img{
+        position: absolute;
+        width: 100%;
+        height:4rem;
+     }
+     .swiper-wrapper .page_five .page_five_jiantou{
+            width: 100%;
+            display: flex;
+            justify-content:center;
+
+     }
+      .swiper-wrapper .page_five .page_five_jiantou img{
+        width: 0.43rem;
+        height: 0.62rem;
+      }
+
+      /*six*/
+      .swiper-wrapper .page_six{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        flex-direction:column;
+        padding-top: 0.1rem;
+        padding-bottom:1.5rem; 
+      }
+      .swiper-wrapper .page_six .page_six_top{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+         justify-content:space-between;
+         height: 1.6rem;rem;
+
+      }
+       .swiper-wrapper .page_six .page_six_top .first{
+        width: 2.04rem;
+        height: 0.41rem;
+       }
+        .swiper-wrapper .page_six .page_six_top div{
+            display: flex;
+            width: 100%;
+            justify-content:center;
+        }
+        .swiper-wrapper .page_six .page_six_top .second{
+            width: 4.33rem;
+            height: 0.45rem;
+        }
+        .swiper-wrapper .page_six .page_six_middle{
+            width: 100%;
+            height: 5rem;
+            /*background: #ccc;*/
+            flex-direction:row;
+            display: flex;
+            justify-content:center;
+        }
+        .swiper-wrapper .page_six .page_six_middle   .txt_father{
+            position: relative;
+            width: 3.52rem;
+                height: 0.44rem;
+                overflow: hidden;
+                
+
+        }
+        .swiper-wrapper .page_six .page_six_middle   .txt_father .box{
+            width: 1.7rem;
+            height: 0.32rem;
+            background: white;
+            /*animation: page_six_move 1.5s linear infinite;*/
+            position: absolute;
+            z-index: 100;
+            top:3px;
+            left: 2px;
+            
+        }
+
+        .swiper-wrapper .page_six .page_six_middle   .search_father{
+            width: 0.5rem;
+            height: 0.4rem;
+            background: blue;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+
+        }
+        .swiper-wrapper .page_six .page_six_middle   .search{
+            width: 0.3rem;
+            height: 0.3rem;
+        }
+
+    .swiper-wrapper .page_six .page_six_middle       .page_six_txt{
+                position: absolute;
+                width: 1.52rem;
+                height: 0.24rem;
+                left: 0.2rem;
+                top: 0.15rem;
+    }
+
+        .swiper-wrapper .page_six .page_six_down{
+            width: 100%;
+            height: 1.05rem;
+            display: flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:space-between;
+
+        }
+        .swiper-wrapper .page_six .page_six_down     .page_six_down_div .one{
+            width: 1.47rem;
+            height: 0.27rem;
+        }
+        .swiper-wrapper .page_six .page_six_down      .page_six_down_div{
+            width: 100%;
+            display: flex;
+            justify-content:center;
+        } 
+       
+        .swiper-wrapper .page_six .page_six_down     .page_six_down_down{
+             width: 70%;
+            display: flex;
+            flex-direction:row;
+            justify-content:space-between;
+
+        }
+        
+        
+         .swiper-wrapper .page_six .page_six_down    .two{
+            width: 2.05rem;
+            height: 0.54rem;
+         }
+#music_box{
+        width: 0.8rem;
+        height: 0.8rem;
+        position: fixed;
+        background:url(../images/musicBtn.png); ;
+        z-index: 1000;
+        left: 5.6rem;
+        background-size:100%; 
+}
